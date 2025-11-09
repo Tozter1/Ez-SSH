@@ -1,5 +1,7 @@
 # Ez-SSH
 
+## Supported OS
+
 | Operating System | Version | Supported          |
 | ---------------- | ------- | ------------------ |
 | Ubuntu           | 14.04   | :red_circle:       |
@@ -24,6 +26,10 @@
 | Fedora           | 22+     | :white_check_mark: |
 | Arch / Manjaro   | Rolling | :white_check_mark: |
 | Alpine Linux     | 3.9+    | :white_check_mark: *(requires bash + sudo)* |
-| macOS            | 10.11+  | :white_check_mark: |
-| WSL (any distro) | —       | :white_check_mark: |
-| Windows (native) | —       | :red_circle: *(requires WSL or Git Bash)* |
+
+# How to use
+
+Use the command below to run this script:
+```bash
+bash <(curl -sSL https://raw.githubusercontent.com/Tozter1/Ez-SSH/refs/heads/main/install.sh)
+```
